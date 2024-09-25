@@ -1,5 +1,4 @@
 // import React from 'react'
-<<<<<<< HEAD
 import { IoCallOutline } from "react-icons/io5";
 
 import { GoLocation } from "react-icons/go";
@@ -33,11 +32,6 @@ function Footer() {
       <div></div>
     </div>
   );
-=======
-
-function Footer() {
-  return <div>Footer</div>;
->>>>>>> 2dc1e0bde6a53859f1181b3e669d225fe8faf17b
 }
 
 export default Footer;
