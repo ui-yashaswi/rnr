@@ -27,7 +27,7 @@ const Accordion = ({ item }) => {
       <div
         className={`w-full flex text-xl items-start gap-4 justify-between ${
           open ? "bg-red-500 text-white h-full" : "bg-white text-slate-900"
-        } lg:h-20 h-full border-4 p-4`} // Flex to align the text and icon
+        } lg:h-20 h-full border p-4`} // Flex to align the text and icon
         onClick={() => setOpen(!open)}
       >
         {/* Icon beside the question */}
